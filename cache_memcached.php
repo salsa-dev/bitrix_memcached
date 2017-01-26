@@ -4,10 +4,10 @@ class CPHPCacheMemcached implements ICacheBackend
 	private static $obMemcached;
 	private static $basedir_version = array();
 	var $sid = "";
-	//cache stats
+
 	var $written = false;
 	var $read = false;
-	// unfortunately is not available for memcache...
+	// unfortunately ii was not available for memcache...
 
 	function __construct()
 	{
